@@ -1,5 +1,5 @@
 resource "aws_vpc" "georgevpc" {
-  vpc_name   = var.georgevpc
+  vpc_name   = var.vpc_name
   cidr_block = var.cidr_block_vpc
   tags = var.tags
   }
