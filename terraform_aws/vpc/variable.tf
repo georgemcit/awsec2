@@ -9,7 +9,7 @@ variable "vpc_cidr_block"{
   type=string
 }
 variable "vpc_availability_zones"{
-  type=string
+  type=list(string)
 }
 variable "vpc_public_subnets"{
   type=list(string)
