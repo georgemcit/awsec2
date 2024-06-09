@@ -1,7 +1,7 @@
 resource "aws_vpc" "georgevpc" {
   vpc_name   = var.vpc_name
   cidr_block = var.vpc_cidr_block
-  tags = var.vpc_tags
+  tags = var.tags
   }
 resource "aws_subnet" "georgesb" {
   vpc_id              = var.vpc_id
