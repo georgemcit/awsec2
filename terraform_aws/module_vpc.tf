@@ -1,4 +1,4 @@
-module "module_ec2" {
+module "module_vpc" {
   source            = "./vpc/"
   subnet_id         = "aws_subnet.george.id"
   vpc_cidr_block    = "172.16.0.0/16"
