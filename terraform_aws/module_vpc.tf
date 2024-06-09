@@ -1,4 +1,4 @@
-module "vpa" {
+module "vpc" {
   source            = "./vpc/"
   vpc_cidr_block    = "172.16.0.0/16"
   vpc_id            = "aws_vpc.george.id"
