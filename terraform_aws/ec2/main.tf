@@ -11,7 +11,7 @@ data "aws_ami" "amzn-linux-2023-ami" {
 resource "aws_instance" "george" {
   ami           = var.ami
   instance_type = var.instance_type
-  subnet_id     = module.vpc.public_subnets[0]
+  subnet_id     = module.vpc.subnets
 
   cpu_options {
     core_count       = 2
