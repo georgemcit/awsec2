@@ -1,3 +1,3 @@
 module "georgesg" {
-  source            = "./vpc/"
+  source            = "./sg/"
 }
