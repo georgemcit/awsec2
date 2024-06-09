@@ -7,3 +7,6 @@ variable "ami"{
 variable "instance_type"{
   type  =string
 }
+variable "tags"{
+  type  =string
+}
