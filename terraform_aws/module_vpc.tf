@@ -1,5 +1,5 @@
 module "vpa" {
-  source            = "./vpc/"
+  source            = "./terraform_aws/"
   vpc_cidr_block    = "172.16.0.0/16"
   vpc_id            = "aws_vpc.george.id"
   sb_cidr_block     = "172.16.10.0/24"
