@@ -1,0 +1,3 @@
+module "lb" {
+  source            = "./lb/"
+}
