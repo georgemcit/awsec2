@@ -9,4 +9,3 @@ resource "aws_subnet" "georgesb" {
   vpc_private_subnets = var.vpc_private_subnets
   availability_zone   = var.availability_zone 
   }
-}
