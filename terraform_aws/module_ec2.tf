@@ -5,6 +5,6 @@ module "ec2" {
   instance_type        = "c6a.2xlarge"
   tags                 = "tf-george"
   subnet_id            = "aws_subnet.george.id"
-  vpc_security_group   = module.sg
+  security_group       = module.georgesg
 }
 
