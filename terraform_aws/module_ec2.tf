@@ -1,9 +1,10 @@
 
 module "ec2" {
-  source            = "./ec2/"
-  ami               = "data.aws_ami.amzn-linux-2023-ami.id"
-  instance_type     = "c6a.2xlarge"
-  tags              = "tf-george"
-  subnet_id         = "aws_subnet.george.id"
+  source               = "./ec2/"
+  ami                  = "data.aws_ami.amzn-linux-2023-ami.id"
+  instance_type        = "c6a.2xlarge"
+  tags                 = "tf-george"
+  subnet_id            = "aws_subnet.george.id"
+  vpc_security_group   = module.sg
 }
 
