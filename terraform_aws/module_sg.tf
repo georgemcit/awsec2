@@ -1,3 +1,3 @@
 module "georgesg" {
-  source            = "./sg/"
+  source            = "./terraform_aws/"
 }
