@@ -1,4 +1,4 @@
-           
+  /*         
 variable "vpc_name"{
   type=string
 }
@@ -20,3 +20,4 @@ variable "vpc_private_subnets"{
 variable "vpc_tags"{
   type=string
 }
+*/
